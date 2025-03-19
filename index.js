@@ -2,9 +2,12 @@ const ramens = [
     { id: 1, name: "Shoyu Ramen", restaurant: "Ichiran", image: "shoyu.jpg", rating: 5, comment: "Delicious!" },
     { id: 2, name: "Naruto Ramen", restaurant: "Ramen Kaiser", image: "naruto.jpg", rating: 4, comment: "Bursts with flavor!" },
     { id: 3, name: "Nirvana Ramen", restaurant: "Ramen Isagi", image: "nirvana.jpg", rating: 5, comment: "A flavor explosion!" },
-    { id: 4, name: "Kojiro Ramen", restaurant: "Ramen Kojiro", image: "kojiro.jpg", rating: 3, comment: "Too much broth." },
-    { id: 5, name: "Gyukotsu Ramen", restaurant: "Ramen Kotsuki", image: "gyukotsu.jpg", rating: 2, comment: "Not my favorite." }
+    { id: 4, name: "Kojiro Ramen", restaurant: "Ramen Kojiro", image: "kojiro.jpg", rating: 3, comment: "Crazy flavors!" },
+    { id: 5, name: "Gyukotsu Ramen", restaurant: "Ramen Kotsuki", image: "gyukotsu.jpg", rating: 2, comment: "The best!" }
 ];
+const header = document.getElementById("header1");
+header.innerHTML =`<h1>Ramen Rater</h1>
+`
 
 document.addEventListener("DOMContentLoaded", () => {
     const ramenMenu = document.getElementById("images"); 
